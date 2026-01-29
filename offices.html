@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assets/css/layout.css">
+    <link rel="stylesheet" href="Assets/css/page-offices.css">
+    <link rel="stylesheet" href="Assets/fontAws/css/all.css">
+    <link rel="stylesheet" href="Assets/fontAws/css/all.min.css">
+    <link rel="shortcut icon" href="Assets/image/logo.png" type="image/x-icon">
+    <title>دليل المكاتب الهندسية - نقابة المهن الهندسية</title>
+</head>
+<body>
+    
+    <header>
+        <div class="image">
+            <img src="Assets/image/logo.png" alt="شعار النقابة">
+        </div>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="layout.html">الرئيسية</a>
+                    <ul>
+                        <li><a href="vision.html">رؤيتنا</a></li>
+                        <li><a href="mission.html">رسالتنا</a></li>
+                        <li><a href="goals.html">اهدافنا</a></li>
+                        <li><a href="specializations.html">تخصصاتنا</a></li>
+                        <li><a href="legislation.html">تشريعاتنا</a></li>
+                        <li><a href="role.html">دورنا</a></li>
+                        <li><a href="members.html">أعضاء النقابة</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="directory.html">دليل البحث</a>
+                    <ul>
+                        <li><a href="engineers.html">المهندسون</a></li>
+                        <li><a href="offices.html">المكاتب الهندسية</a></li>
+                        <li><a href="companies.html">الشركات الهندسية</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="activities.html">الأنشطة</a>
+                    <ul>
+                        <li><a href="conferences.html">المؤتمرات</a></li>
+                    </ul>
+                </li>
+
+                
+                <li><a href="join.html">انتسب الآن</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <p class="eyebrow">الدليل</p>
+            <h1>دليل المكاتب الهندسية</h1>
+            <p>عرض المكاتب الهندسية المعتمدة وتصنيفاتها.</p>
+        </section>
+
+        <section class="section">
+            <div class="section-header">
+                <p class="eyebrow">بحث</p>
+                <h2>ابحث داخل دليل المكاتب الهندسية</h2>
+                <p>يمكنك تصفية النتائج حسب بيانات المكتب والترخيص.</p>
+            </div>
+            <form class="search-form" action="#" method="get">
+                <div class="form-grid">
+                    <label>
+                        اسم المكتب
+                        <input type="text" name="office_name">
+                    </label>
+                    <label>
+                        رقم الترخيص
+                        <input type="text" name="license_number">
+                    </label>
+                    <label>
+                        نوع المكتب
+                        <select name="company_type">
+                            <option value="">كل الأنواع</option>
+                            <option value="office">مكتب هندسي</option>
+                            <option value="institution">مؤسسة هندسية</option>
+                        </select>
+                    </label>
+                    <label>
+                        رقم الهاتف
+                        <input type="tel" name="phone">
+                    </label>
+                    <label>
+                        البريد الإلكتروني
+                        <input type="email" name="email">
+                    </label>
+                    <label>
+                        العنوان
+                        <input type="text" name="address">
+                    </label>
+                    <label>
+                        الحالة
+                        <select name="status">
+                            <option value="">كل الحالات</option>
+                            <option value="active">نشط</option>
+                            <option value="pending">قيد المراجعة</option>
+                            <option value="suspended">موقوف</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="search-actions">
+                    <button class="btn primary" type="submit">بحث</button>
+                    <button class="btn ghost" type="reset">مسح</button>
+                </div>
+            </form>
+        </section>
+
+        <section class="section">
+            <div class="section-header">
+                <p class="eyebrow">المحتوى</p>
+                <h2>بيانات المكاتب</h2>
+                <p>تصنيف واضح للمكاتب وفق التخصص ونطاق العمل.</p>
+            </div>
+            <div class="page-content">
+                <div class="info-card">
+                    <h3>تصنيف المكاتب</h3>
+                    <p>تقسيم حسب التخصصات المعتمدة وسنوات الخبرة.</p>
+                </div>
+                <div class="info-card">
+                    <h3>مجالات العمل</h3>
+                    <p>تحديد الخدمات الهندسية التي يقدمها المكتب.</p>
+                </div>
+                <div class="info-card">
+                    <h3>بيانات الاتصال</h3>
+                    <p>عرض وسائل التواصل المعتمدة وفق اللوائح.</p>
+                </div>
+                <div class="info-card">
+                    <h3>التراخيص</h3>
+                    <p>بيانات الترخيص وتاريخ الاعتماد.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-grid">
+            <div>
+                <img src="Assets/image/logo.png" alt="نقابة المهن الهندسية">
+                <p>نقابة المهن الهندسية تجمع الأعضاء والجهات لخدمة المجتمع الهندسي.</p>
+            </div>
+            <div>
+                <h4>روابط سريعة</h4>
+                <ul>
+                    <li><a href="join.html">العضوية</a></li>
+                    <li><a href="specializations.html">التخصصات</a></li>
+                    <li><a href="activities.html">الأنشطة</a></li>
+                    <li><a href="conferences.html">المؤتمرات</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>تواصل</h4>
+                <ul>
+                    <li>hello@engineeringunion.org</li>
+                    <li>+20 100 000 0000</li>
+                    <li>الزاوية، ليبيا</li>
+                </ul>
+            </div>
+            <div>
+                <h4>تابعنا</h4>
+                <div class="social">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 نقابة المهن الهندسية. جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+</body>
+</html>
